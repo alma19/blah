@@ -1,0 +1,353 @@
+.header{
+    text-align: right;
+    background-color: #1F8AE0;
+    color: #fff;
+    display: inline-block; 
+}
+
+/* NAV BAR */ 
+.nav {
+    background-image: url('http://almawashington.com/586/project1/images/diagonal-bg.png'); 
+    background-repeat: repeat-x; 
+    border: 0px;
+    padding: 0px;
+    min-height: 120px; 
+    background-size: 100% 100%;
+    padding-top: 10px; 
+}
+
+
+.icon-nav {
+    display: inline; 
+    width: 100%;
+    margin: auto;
+    list-style: none; 
+}
+
+li {
+    float: left;
+    display: block; 
+}
+
+
+/*MAIN CONTENT */ 
+.main-content {
+    padding: 15px; 
+}
+
+/* DASHBOARD & SEARCH ICON */ 
+.dashboard {
+    border-radius: 10px;
+    padding: 5px; 
+    background-color: #33cc66;
+    color: #fff;
+    margin-left: 10px; 
+}
+
+.dashboard p {
+    font-size: 30px;
+    padding-top: 10px; 
+}
+
+.search {
+    padding-top: 10px; 
+}
+
+.white {
+    background-color: white; 
+}
+
+ /* .search-bar {
+    margin-right: 20px;
+    float: left; 
+} */
+ 
+ /* CENTER CONTENT*/
+ 
+ .center-content {
+    background: linear-gradient(#f6f6f6, white);
+    border-radius: 10px;
+    margin-top: 15px;
+    border: 1px solid #eee; 
+ }
+
+/* ANNOUNCEMENTS BAR*/
+
+.announcements {
+    background: white; 
+    border-top: 1px solid #eeeeee; 
+   border-bottom: 1px solid #eeeeee;
+   padding-top: 10px; 
+   margin-top: 10px;
+   margin-bottom: 10px; 
+}
+
+.announcements-words {
+    color: orange;
+    border-right: 1px solid #eeeeee;
+    padding-right: 30x;
+    text-align: center; 
+}
+
+.announcements-latin {
+    border-right: 1px solid #eeeeee;
+}
+
+.announcements-arrorws{
+    padding: 0px; 
+}
+
+/*TASKS*/
+
+.tasks {
+    background: white; 
+    padding-left: 10px;
+    /*margin-left: 10px; */
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eee; 
+}
+
+
+.tasks-row {
+    padding: 10px;
+    border: 1px solid #eee;
+    border-left: 0px; 
+}
+
+.tasks-text {
+    color: #279CF4;
+    padding: 10px;
+    font-size: 24px;
+    /*padding-top: 5px;
+     margin-top: 5px; */ 
+}
+
+
+.tasks-row a:hover{
+    color: #696969;
+    text-decoration: none; 
+}
+
+
+.tasks-box {
+    display: inline-block;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 3px;
+    margin-right: 5px; 
+     
+}
+
+.tasks-numbers {
+    display: inline;
+    float: right;
+    padding-top: 3px; 
+    padding-left: 5px;
+}
+
+#tasks-title {
+    font-size: 30px; 
+}
+
+#recommendations-title {
+    font-size: 30px; 
+}
+
+#gray-settings {
+    padding-top: 10px;
+    margin-top: 10px; 
+}
+
+.green-circle {
+    background-color: #33cc66;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    padding-top: 6px;; 
+    padding-right: 10px; 
+    padding-bottom: 6px; 
+    padding-left: 10px; 
+    text-align: center;
+    color: #fff;
+    margin-left: 15px; 
+}
+
+
+.recommendations-row {
+    padding-left: 5px;
+    border-top: 1px solid #eee; 
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee; 
+}
+
+.recommendations-small-text {
+    font-size: 1em;
+    color: #696969;
+}
+
+.recommendations-big-text {
+    font-size: 1.5em;
+    color: #696969; 
+}
+
+
+/*ANALYTICS*/
+.analytics {
+    background: white;
+}
+
+#analytics-title {
+    color: #279CF4;
+    padding: 10px;
+    font-size: 30px;   
+}
+
+.activity {
+    color: #696969; 
+}
+
+#analytics-bar-graph {
+    width: 100%;
+} 
+
+.bar-graph {
+    border-right: 2px solid #eee; 
+}
+
+/*SOCIAL MEDIA*/
+.social-media {
+    background: white;
+    padding-top: 10px;; 
+    margin-top: 10px;
+    text-align: center;
+    border-bottom: 1px solid #eee; 
+}
+
+#facebook-box {
+    background-color: #3b5998;
+    color: white;
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block; 
+}
+ 
+#twitter-box {
+    background-color: #00aced;
+    color: white;
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block; 
+}
+
+#foursquare-box {
+    background-color: #0072b1;
+    color: white;
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block; 
+}
+
+#google-box {
+    background-color: #3cba54;
+    color: white;
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block; 
+}
+
+input[type="checkbox"] {
+    display: none; 
+}
+
+input[type="checkbox"] + label span {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background: url(spritesheet_2.png) -455px -114px no-repeat;
+    vertical-align: middle;
+    cursor: pointer;   
+}
+
+input[type="checkbox"]:checked + label span {
+    background: url(spritesheet_2.png) -455px -186px no-repeat;
+}
+
+/*CONTACTS & CUSTOMERS*/
+
+.boxes { 
+    border-bottom: 1px solid #eee;
+    margin: 10px; 
+}
+
+.outside-box {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+.inside-box {
+    background-color: white;
+    border: 1px solid #696969;
+    /*box shadow*/ 
+    border-radius: 10px;
+    margin-left: 10px;
+    text-align: center;
+    position: relative; 
+}
+
+.sprite-green-man {
+    margin: 0;
+}
+
+.inside-text {
+    margin: 0;
+    display: inline; 
+}
+.inside-big-text{
+    color: white;
+    background-color: #279CF4;
+    margin: 0;
+}
+
+.inside-small-text{
+    color: white;
+    background-color: #279CF4; 
+}
+
+.sprite-left-arrow {
+    position: absolute;
+    margin-right: 50px; 
+    
+}
+
+.sprite-right-arrow {
+    position: absolute;
+    display: inline-block; 
+}
+
+/*DID YOU KNOW? */
+.blue-box-inside {
+    position: absolute; 
+    background-color: #279CF4;
+    color: white;
+    margin: 10px;
+    border-radius: 5px; 
+}
+
+.blue-box-text {
+    padding: 20px 30px 20px 30px; 
+}
+.sprite-left-chevron {
+    position: absolute; 
+    float: left;
+    margin-top: 40px; 
+}
+
+.sprite-right-chevron {
+    position: relative; 
+    float: right;
+    margin-top: -90px; 
+}
